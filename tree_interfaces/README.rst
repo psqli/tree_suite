@@ -40,8 +40,7 @@ How to use:
 1. Download or clone the repository
 
 * Download: <https://github.com/ebiggers/avl_tree/archive/master.zip>
-* Clone::
-	$ git clone https://github.com/ebiggers/avl_tree.git
+* Clone: ``$ git clone https://github.com/ebiggers/avl_tree.git``
 
 2. Rename the directory to "ebiggers_avl"
 
@@ -65,8 +64,7 @@ How to use:
 1. Download or clone the repository
 
 * Download: <https://github.com/ricardobiehl/avl_tree/archive/master.zip>
-* Clone::
-	$ git clone https://github.com/ricardobiehl/avl_tree.git
+* Clone: ``$ git clone https://github.com/ricardobiehl/avl_tree.git``
 
 2. Rename the directory to "pasquali_avl"
 
