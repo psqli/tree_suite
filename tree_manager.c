@@ -69,7 +69,7 @@ do { \
 
 	/* size */
 	__get_symbol(library, ops, get_root_size);
-	__get_symbol(library, ops, get_node_size);
+	__get_symbol(library, ops, get_element_size);
 
 	/* offset */
 	__get_symbol(library, ops, get_root_node_offset);
@@ -220,7 +220,7 @@ tree_info_setup(struct tree_info *info, struct tree_operations *ops)
 {
 	/* get sizes */
 	info->root_size = ops->get_root_size();
-	info->element_size = ops->get_node_size();
+	info->element_size = ops->get_element_size();
 
 	/* get offsets */
 	info->root_node_offset = ops->get_root_node_offset();

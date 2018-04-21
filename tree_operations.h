@@ -6,7 +6,7 @@
 struct tree_operations {
 	/* sizes */
 	size_t (*get_root_size)(void);
-	size_t (*get_node_size)(void);
+	size_t (*get_element_size)(void);
 
 	/* offsets */
 	size_t (*get_root_node_offset)(void);

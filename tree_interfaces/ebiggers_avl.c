@@ -101,7 +101,7 @@ get_root_size(void)
 }
 
 size_t
-get_node_size(void)
+get_element_size(void)
 {
 	return sizeof(struct foo);
 }

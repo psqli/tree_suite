@@ -73,7 +73,7 @@ Misc operations:
 Operations that get sizes:
 
 * get_root_size: Get the size of the root structure.
-* get_node_size: Get the size of the element structure.
+* get_element_size: Get the size of the element structure.
 
 Operations that get offsets:
 
